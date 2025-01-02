@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Size</title>
+    <style>
+        .main-container {
+            width: 90%;
+            height: 300px;
+            border: 10px solid orange;
+            display: flex;
+            gap: 10px;
+        }
+
+        .main-container div {
+            height: 200px;
+        }
+
+        .yellow {
+            background-color: yellow;
+            flex: 1;
+        }
+
+        .green {
+            background-color: green;
+            flex: 2;
+        }
+
+        .blue {
+            background-color: blue;
+            flex: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="yellow"></div>
+        <div class="green"></div>
+        <div class="blue"></div>
+    </div>
+</body>
+</html>
